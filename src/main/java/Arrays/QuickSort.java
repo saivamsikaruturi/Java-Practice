@@ -1,4 +1,4 @@
-package com.vamsi.javaPractice.Arrays;
+package Arrays;
 
 public class QuickSort {
 
