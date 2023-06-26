@@ -1,7 +1,6 @@
 package DesignPatterns.Observer;
 
-import com.vamsi.javaPractice.DesignPatterns.Observer.Observable;
-import com.vamsi.javaPractice.DesignPatterns.Observer.Observer;
+
 
 import java.util.ArrayList;
 import java.util.Iterator;

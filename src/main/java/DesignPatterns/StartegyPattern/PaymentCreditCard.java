@@ -1,10 +1,9 @@
 package DesignPatterns.StartegyPattern;
 
-import com.vamsi.javaPractice.DesignPatterns.StartegyPattern.CreditCard;
-import com.vamsi.javaPractice.DesignPatterns.StartegyPattern.PaymentStrategy;
+
 
 public class PaymentCreditCard implements PaymentStrategy {
-    private com.vamsi.javaPractice.DesignPatterns.StartegyPattern.CreditCard creditCard;
+   CreditCard creditCard;
     @Override
     public void collectPaymentDetails() {
         creditCard=new CreditCard();

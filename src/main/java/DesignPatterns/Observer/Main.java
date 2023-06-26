@@ -1,14 +1,11 @@
 package DesignPatterns.Observer;
 
-import com.vamsi.javaPractice.DesignPatterns.Observer.DisplayBoard;
-import com.vamsi.javaPractice.DesignPatterns.Observer.IBM;
-import com.vamsi.javaPractice.DesignPatterns.Observer.Microsoft;
-import com.vamsi.javaPractice.DesignPatterns.Observer.Mobile;
+
 
 public class Main {
     public static void main(String[] args) {
         //Create stocks
-        com.vamsi.javaPractice.DesignPatterns.Observer.IBM ibm = new IBM();
+      IBM ibm = new IBM();
         Microsoft microsoft = new Microsoft();
 
 

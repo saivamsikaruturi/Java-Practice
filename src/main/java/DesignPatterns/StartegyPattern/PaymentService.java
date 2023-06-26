@@ -1,6 +1,5 @@
 package DesignPatterns.StartegyPattern;
 
-import com.vamsi.javaPractice.DesignPatterns.StartegyPattern.PaymentStrategy;
 import lombok.Setter;
 
 @Setter

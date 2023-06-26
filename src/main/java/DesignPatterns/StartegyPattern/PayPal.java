@@ -1,6 +1,5 @@
 package DesignPatterns.StartegyPattern;
 
-import com.vamsi.javaPractice.DesignPatterns.StartegyPattern.PaymentStrategy;
 
 public class PayPal implements PaymentStrategy {
 
