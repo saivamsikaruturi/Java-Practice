@@ -1,6 +1,7 @@
 package Arrays;
 
 public class SecondHighestElementFromAnArray {
+
     public static void main(String[] args) {
         System.out.println (getSecondHighestElement (new int[]{9,2,1,67,47}));
     }

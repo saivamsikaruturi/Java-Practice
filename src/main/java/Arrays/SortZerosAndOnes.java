@@ -3,6 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class SortZerosAndOnes {
+
     public static void main(String[] args) {
         int[] array = {0, 1, 0, 0, 1, 0, 1, 0, 0, 1};
        int  left=0,right=array.length-1;
