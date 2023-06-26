@@ -23,6 +23,10 @@ public class Employee implements  Cloneable{
         this.salary = salary;
     }
 
+    public Employee() {
+
+    }
+
     public Integer getEmpId() {
         return empId;
     }

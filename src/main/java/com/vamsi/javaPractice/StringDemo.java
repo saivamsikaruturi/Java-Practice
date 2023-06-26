@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Consumer;
@@ -139,7 +140,7 @@ public class StringDemo {
                 .iterator ()
                 .forEachRemaining (System.out::println);
 
-        List<Integer> m = Arrays.asList (455, 18, 20, 90, 2000);
+        java.util.List<Integer> m = Arrays.asList (455, 18, 20, 90, 2000);
         Integer integer = m.stream ().max (Comparator.naturalOrder ()).get ();
         System.out.println (integer);
 
@@ -177,7 +178,7 @@ public class StringDemo {
 
         /*flatmap*/
 
-        List<String> str1 = new ArrayList<> ();
+        java.util.List<String> str1 = new ArrayList<> ();
         str1.add ("java");
         str1.add ("oops");
         str1.add ("spring boot");
@@ -295,8 +296,8 @@ public class StringDemo {
         Employee e3 = new Employee (46050454, "Gayatri", 25, "Female", "Data Base", LocalDate.of (2017, 01, 01), 27000);
         Employee e4 = new Employee (46050455, "Need Smith", 28, "Male", "UI", LocalDate.of (2018, 12, 15), 70000);
 
-        List<Employee> employeeList = Arrays.asList (e, e1, e2, e3, e4);
-        List<Integer> collect = employeeList.stream ()
+        java.util.List<Employee> employeeList = Arrays.asList (e, e1, e2, e3, e4);
+        java.util.List<Integer> collect = employeeList.stream ()
                 .sorted (Comparator.comparing (Employee::getSalary).reversed ()).limit(3).map(Employee::getSalary).collect (Collectors.toList ());
           System.out.println ("collect"+collect);
 //        Predicate<Employee> eSalary=e123->e123.getSalary ()>50000;
