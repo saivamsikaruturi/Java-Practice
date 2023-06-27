@@ -1,3 +1,5 @@
+package InterviewQuestions;
+
 public class OracleInterview {
 
   public  static void  checkPalindrome(int number){

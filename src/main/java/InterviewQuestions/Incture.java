@@ -1,3 +1,5 @@
+package InterviewQuestions;
+
 public class Incture {
     public static void main(String[] args) {
         String s="vamsi";
