@@ -1,6 +1,6 @@
 package StreamApiTesting;
 
-import com.vamsi.javaPractice.Employee;
+import InterviewQuestions.Employee;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

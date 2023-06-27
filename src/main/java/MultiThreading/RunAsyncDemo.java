@@ -3,7 +3,7 @@ package MultiThreading;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vamsi.javaPractice.Employee1;
+import InterviewQuestions.Employee1;
 
 import java.io.File;
 import java.io.IOException;

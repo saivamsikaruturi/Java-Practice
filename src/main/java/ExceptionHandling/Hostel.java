@@ -1,8 +1,6 @@
 package ExceptionHandling;
 
-import com.vamsi.javaPractice.ExceptionHandling.BookedHostelException;
-import com.vamsi.javaPractice.ExceptionHandling.StudentDetails;
-import com.vamsi.javaPractice.ExceptionHandling.UnavailableRoomException;
+
 
 import java.util.ArrayList;
 import java.util.List;

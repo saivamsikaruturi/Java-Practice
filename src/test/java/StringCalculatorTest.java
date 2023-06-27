@@ -1,5 +1,6 @@
-import com.vamsi.javaPractice.tdd.StringCalculator;
+
 import org.junit.jupiter.api.Test;
+import tdd.StringCalculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

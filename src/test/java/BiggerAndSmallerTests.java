@@ -1,4 +1,4 @@
-import com.vamsi.javaPractice.BiggerAndSmaller;
+import InterviewQuestions.BiggerAndSmaller;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

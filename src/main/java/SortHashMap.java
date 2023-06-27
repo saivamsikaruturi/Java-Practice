@@ -1,6 +1,5 @@
-import com.vamsi.javaPractice.Entity;
+import InterviewQuestions.Entity;
 
-import javax.xml.stream.events.EntityReference;
 import java.util.*;
 import java.util.stream.Collectors;
 

@@ -1,13 +1,12 @@
 package StreamApiTesting;
 
 
-import com.vamsi.javaPractice.StreamApiTesting.StudentDemo;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class StudentImplementation {
-   public long countStudents(List<com.vamsi.javaPractice.StreamApiTesting.StudentDemo> list ){
+   public long countStudents(List<StudentDemo> list ){
        long count = list.stream ().filter (score -> score.getScore () > 70).count ();
        return count;
     }

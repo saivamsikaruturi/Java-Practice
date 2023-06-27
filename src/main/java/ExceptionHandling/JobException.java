@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-import com.vamsi.javaPractice.ExceptionHandling.NotEligibleException;
+
 
 public class JobException {
 

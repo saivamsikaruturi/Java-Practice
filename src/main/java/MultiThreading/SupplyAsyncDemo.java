@@ -1,8 +1,8 @@
 package MultiThreading;
 
 
-import com.vamsi.javaPractice.Employee1;
-import com.vamsi.javaPractice.EmployeeDatabase;
+import InterviewQuestions.Employee1;
+import InterviewQuestions.EmployeeDatabase;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-import com.vamsi.javaPractice.StringPlay;
+import InterviewQuestions.StringPlay;
 
 public class RRRRR {
     public static void main(String[] args) {
