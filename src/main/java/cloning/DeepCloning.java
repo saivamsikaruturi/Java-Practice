@@ -2,7 +2,7 @@ package cloning;
 
 public class DeepCloning {
     public static void main(String[] args) throws CloneNotSupportedException {
-        Address adddress =new Address("Bangalore","501600");
+        Address adddress = new Address("Bangalore","501600");
         Employee employee=new Employee("1","vamsi",adddress);
         Employee employee1 = (Employee) employee.clone();
         employee1.setName("krishna");
