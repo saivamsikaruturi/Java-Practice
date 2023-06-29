@@ -11,7 +11,7 @@ public class BankFactory implements AbstractFactory<Bank, BankType> {
             case SBI: return new SBI();
             case HDFC: return new HDFC();
             case ICICI: return new ICICI();
-            default: throw new ObjectCreationException(type.toString());
+            default: throw new ObjectCreationException("invalid bank");
         }
     }
 }
