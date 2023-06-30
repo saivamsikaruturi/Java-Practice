@@ -1,4 +1,4 @@
-package DesignPatterns.Proxy;
+package DesignPatterns.Structural.Proxy;
 
 import java.util.Calendar;
 

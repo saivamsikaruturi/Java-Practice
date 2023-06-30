@@ -1,4 +1,4 @@
-package DesignPatterns.Proxy;
+package DesignPatterns.Structural.Proxy;
 
 public class NetworkSettings {
     public ISP getInternet(){
