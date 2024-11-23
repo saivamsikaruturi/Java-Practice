@@ -4,7 +4,7 @@ public class Employee  implements Prototype {
     private final Integer id;
     private final String name;
     private final Integer age;
-    private final double salary;
+    private  final double salary;
 
     public Employee(Integer id, String name, Integer age, double salary) {
         this.id = id;

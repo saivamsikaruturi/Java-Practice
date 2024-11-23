@@ -8,6 +8,7 @@ public class BinarySerach {
         int leftIdx = 0;
         int rightIdx = sortedArray.length - 1;
         while(leftIdx <= rightIdx)
+
         {
             int midIdx = leftIdx + (rightIdx - leftIdx) / 2;
             if(sortedArray[midIdx] == key)
